@@ -1,0 +1,86 @@
+/* @font-face {
+    src: url(../static/font/GoudyBookletter1911-Regular.ttf);
+    font-family: 'storybook';
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+* {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.img-size {
+    height: 200px;
+}
+
+.box-1 {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* .center-container {
+    height: 1000px;
+    width: 1000px;
+
+} */
+
+.top-nav-bar {
+    height: 200px;
+    width: 1000px;
+}
+
+.bottom-nav-bar {
+    height: 200px;
+    width: 1000px;
+}
+
+.img-container {
+
+}
+
+.carousel-item {
+    height: 36rem;
+    color: white;
+    /* position: relative; */
+
+}
+
+.carousel-inner{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-right: 50px;
+}
+
+
+.overlay_image {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.center-container {
+    height: 600px;
+    width: 1000px;
+    
+
+}
+
+.image {
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: auto;
+}

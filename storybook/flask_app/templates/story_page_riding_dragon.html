@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Story Page 2</title>
+</head>
+
+<body class="bg-dark">
+    <div class="container-md text-center bg-dark"">
+        
+        <!-- Nav Bar -->
+        <div class="row justify-content-md-center mt-4 mb-4">
+            <!-- Home Button -->
+            <div class="col text-white align-baseline"><a href="/" class="text-white ">HOME</a></div>
+            <!-- Title -->
+            <h1 class="col primary-bg-subtle text-white">QUEST-GEN</h1>
+            <!-- End Quest Button -->
+            <div class="col text-white align-baseline"><a href="/ending" class="text-white ">End Quest</a></div>
+        </div>
+
+    <h1 class="text-white">PAGE 2</h1>
+
+    <div class="row mx-auto">
+        <!-- <img src="{{ url_for('static', filename='imgs/bo0e4c9zqnd81.jpg') }}" alt="dragon" class="w-50 mx-auto"> -->
+
+        <img src="{{ img_url }}" alt="dragon" class="w-50 mx-auto">
+    </div>
+
+    <!-- STORY TEXT BAR -->
+    <div class="container text-center mt-3">
+        <div class="row">
+        <div class="col">
+            <h3 class="text-white text-center">Unflinching, the dragon spreads it's wings to take flight, pausing for a moment. You leap on it's back before it launches into the sky!</h3>
+        </div>
+        </div>
+    </div>
+
+    <!-- PLAYER SELECTION BAR-->
+    <div class="container text-center mt-4">
+        <div class="row">
+            <div class="col">
+                <!-- <button type="button" class="btn btn-light">BACK AWAY SLOWLY</button> -->
+            </div>
+            <div class="col">
+                <a href="/ending"><button type="button" class="btn btn-light">CONCLUSION</button></a>
+            </div>
+            <div class="col">
+                <!-- <a href="/pet_dragon_picture"></a><button type="button" class="btn btn-light">TRY TO RIDE IT</button> -->
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
